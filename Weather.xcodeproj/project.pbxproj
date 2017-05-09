@@ -20,6 +20,9 @@
 		60ADD9661989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
 		60ADD96E1989CFDB0086A6BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60ADD96C1989CFDB0086A6BC /* InfoPlist.strings */; };
 		60ADD9701989CFDB0086A6BC /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ADD96F1989CFDB0086A6BC /* WeatherTests.m */; };
+		9B5219CD1E79A2B400B0096C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5219CC1E79A2B400B0096C /* City.m */; };
+		9B5219D01E79A56900B0096C /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5219CF1E79A56900B0096C /* CityViewController.m */; };
+		9B5219D31E79B05900B0096C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5219D21E79B05900B0096C /* DetailViewController.m */; };
 		AF207A5319F472D300FD95BF /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4619F472D300FD95BF /* clear-day.png */; };
 		AF207A5419F472D300FD95BF /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4719F472D300FD95BF /* clear-night.png */; };
 		AF207A5519F472D300FD95BF /* cloudy-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4819F472D300FD95BF /* cloudy-night.png */; };
@@ -63,6 +66,12 @@
 		60ADD96B1989CFDB0086A6BC /* WeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherTests-Info.plist"; sourceTree = "<group>"; };
 		60ADD96D1989CFDB0086A6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60ADD96F1989CFDB0086A6BC /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		9B5219CB1E79A2B400B0096C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		9B5219CC1E79A2B400B0096C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		9B5219CE1E79A56900B0096C /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		9B5219CF1E79A56900B0096C /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		9B5219D11E79B05900B0096C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9B5219D21E79B05900B0096C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AF207A4619F472D300FD95BF /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
 		AF207A4719F472D300FD95BF /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-night.png"; sourceTree = "<group>"; };
 		AF207A4819F472D300FD95BF /* cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudy-night.png"; sourceTree = "<group>"; };
@@ -137,6 +146,12 @@
 			children = (
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				9B5219CB1E79A2B400B0096C /* City.h */,
+				9B5219CC1E79A2B400B0096C /* City.m */,
+				9B5219CE1E79A56900B0096C /* CityViewController.h */,
+				9B5219CF1E79A56900B0096C /* CityViewController.m */,
+				9B5219D11E79B05900B0096C /* DetailViewController.h */,
+				9B5219D21E79B05900B0096C /* DetailViewController.m */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
@@ -304,8 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5219D31E79B05900B0096C /* DetailViewController.m in Sources */,
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
+				9B5219CD1E79A2B400B0096C /* City.m in Sources */,
+				9B5219D01E79A56900B0096C /* CityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
